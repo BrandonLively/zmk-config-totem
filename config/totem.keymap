@@ -38,7 +38,7 @@
         };
 
         third_layer {
-            bindings = <&mo 3>;
+            bindings = <&mo ADJ>;
             key-positions = <34 35>;
         };
 
@@ -83,7 +83,7 @@
        &kp Q  &kp W  &kp F     &kp P      &kp B    &kp J  &kp L      &kp U      &kp Y    &kp SEMI
        &kp A  &kp R  &kp S     &kp T      &kp G    &kp H  &kp N      &kp E      &kp I    &kp O
 &kp Q  &kp Z  &kp X  &kp C     &kp D      &kp V    &kp K  &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                     &kp BSPC  &kp SPACE  &mo 1    &mo 2  &kp ENTER  &kp RSHFT
+                     &kp BSPC  &kp SPACE  &mo NAV    &mo SYM  &kp ENTER  &kp RSHFT
             >;
         };
 
