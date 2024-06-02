@@ -132,10 +132,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND      &kp PIPE    &trans  &trans          &mmv MOVE_UP    &trans           &trans
-        &kp LESS_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GREATER_THAN   &trans      &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans
-&trans  &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &trans      &trans  &trans          &trans          &trans           &trans  &trans
-                                             &kp BACKSPACE          &kp SPACE          &trans      &trans  &trans          &trans
+        &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND      &kp PIPE    &trans  &trans  &trans  &trans  &trans
+        &kp LESS_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GREATER_THAN   &trans      &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOUBLE_QUOTES  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+                                             &kp BACKSPACE          &kp SPACE          &trans      &trans  &trans  &trans
             >;
         };
 
