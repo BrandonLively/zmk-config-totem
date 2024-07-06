@@ -12,6 +12,11 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_USB
     default y
 
+config CONSOLE
+    default y
+config UART_CONSOLE
+    default y
+
 endif
 
 if SHIELD_TOTEM_LEFT || SHIELD_TOTEM_RIGHT || SHIELD_TOTEM_DONGLE
