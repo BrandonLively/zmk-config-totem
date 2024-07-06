@@ -88,7 +88,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q  &kp W  &kp F     &kp P      &kp B      &kp J    &kp L      &kp U      &kp Y    &kp SEMI
+       &kp Q  &kp W  &kp F     &kp P      &kp B      &kp J    &kp L      &kp U      &kp Y    &kp COLON
        &kp A  &kp R  &kp S     &kp T      &kp G      &kp M    &kp N      &kp E      &kp I    &kp O
 &none  &kp Z  &kp X  &kp C     &kp D      &kp V      &kp K    &kp H      &kp COMMA  &kp DOT  &kp FSLH  &none
                      &kp BSPC  &kp SPACE  &mo NAV    &mo SYM  &kp ENTER  &kp RSHFT
@@ -166,10 +166,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &none  &none  &none  &none  &none     &none   &none  &none     &none  &none
-       &none  &none  &none  &none  &none     &none   &none  &sort_as  &none  &none
-&none  &none  &none  &none  &none  &none     &none   &none  &none     &none  &none  &none
-                     &none  &none  &trans    &trans  &none  &none
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &sort_as  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
