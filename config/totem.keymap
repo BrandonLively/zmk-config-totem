@@ -71,6 +71,34 @@
         };
     };
 
+    behaviors {
+        hmr: hmr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            flavor = "balanced";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <0 21 1 11 10 22 23 12 2 3 24 13 4 25 14 32 33 34 35 36 37>;
+        };
+
+        hml: hml {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HML";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <170>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 26 27 28 29 30 35 36 37 32 33 34>;
+            hold-trigger-on-release;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -93,10 +121,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q  &kp W  &kp F     &kp P      &kp B      &kp J    &kp L      &kp U      &kp Y    &kp COLON
-       &kp A  &kp R  &kp S     &kp T      &kp G      &kp M    &kp N      &kp E      &kp I    &kp O
-&none  &kp Z  &kp X  &kp C     &kp D      &kp V      &kp K    &kp H      &kp COMMA  &kp DOT  &kp TAB    &none
-                     &kp BSPC  &kp SPACE  &mo NAV    &mo SYM  &kp ENTER  &kp RSHFT
+       &kp Q                &kp W            &kp F        &kp P              &kp B      &kp J    &kp L               &kp U        &kp Y             &kp COLON
+       &hml LEFT_CONTROL A  &hml LEFT_ALT R  &hml LCMD S  &hml LEFT_SHIFT T  &kp G      &kp M    &hmr RIGHT_SHIFT N  &hmr RCMD E  &hmr RIGHT_ALT I  &hmr RCTRL O
+&none  &kp Z                &kp X            &kp C        &kp D              &kp V      &kp K    &kp H               &kp COMMA    &kp DOT           &kp TAB       &none
+                                             &kp BSPC     &kp SPACE          &mo NAV    &mo SYM  &kp SPACE           &kp ENTER
             >;
         };
 
