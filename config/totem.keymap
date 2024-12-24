@@ -123,7 +123,7 @@
             bindings = <
        &kp Q                &kp W            &kp F        &kp P              &kp B      &kp J    &kp L               &kp U        &kp Y             &kp COLON
        &hml LEFT_CONTROL A  &hml LEFT_ALT R  &hml LCMD S  &hml LEFT_SHIFT T  &kp G      &kp M    &hmr RIGHT_SHIFT N  &hmr RCMD E  &hmr RIGHT_ALT I  &hmr RCTRL O
-  &kp Z                &kp X            &kp C        &kp D              &kp V      &kp K    &kp H               &kp COMMA    &kp DOT           &kp TAB      
+&none  &kp Z                &kp X            &kp C        &kp D              &kp V      &kp K    &kp H               &kp COMMA    &kp DOT           &kp TAB       &none
                                              &kp BSPC     &kp SPACE          &mo NAV    &mo SYM  &kp SPACE           &kp ENTER
             >;
         };
@@ -149,7 +149,7 @@
             bindings = <
        &kp HOME   &kp RC(LEFT_ARROW)  &kp UP         &kp LC(RIGHT_ARROW)  &kp END       &kp KP_DOT  &kp KP_N7  &kp KP_N8        &kp KP_N9  &kp PLUS
        &kp LG(D)  &kp LEFT            &kp DOWN       &kp RIGHT            &kp LSHIFT    &kp RSHIFT  &kp KP_N4  &kp KP_N5        &kp KP_N6  &kp EQUAL
-  &kp F2     &kp LG(Z)           &kp LG(C)      &kp LG(V)            &kp LCTRL     &kp RCTRL   &kp KP_N1  &kp KP_N2        &kp KP_N3  &kp MINUS 
+&none  &kp F2     &kp LG(Z)           &kp LG(C)      &kp LG(V)            &kp LCTRL     &kp RCTRL   &kp KP_N1  &kp KP_N2        &kp KP_N3  &kp MINUS  &none
                                       &kp BACKSPACE  &kp SPACE            &trans        &trans      &kp ENTER  &kp KP_NUMBER_0
             >;
         };
@@ -175,7 +175,7 @@
             bindings = <
        &kp TILDE  &kp EXCLAMATION  &kp AT_SIGN    &kp LEFT_PARENTHESIS  &kp PIPE         &kp AMPERSAND     &kp RIGHT_PARENTHESIS  &kp PLUS   &kp EXCLAMATION  &kp COLON
        &kp HASH   &kp DOLLAR       &kp PERCENT    &kp LEFT_BRACE        &kp LESS_THAN    &kp GREATER_THAN  &kp RIGHT_BRACE        &kp EQUAL  &kp DOT          &kp DOUBLE_QUOTES
- &kp CARET  &kp AMPERSAND    &kp ASTERISK   &kp LBKT              &kp MINUS        &kp UNDERSCORE    &kp RIGHT_BRACKET      &kp MINUS  &kp QUESTION     &kp SINGLE_QUOTE  
+&none  &kp CARET  &kp AMPERSAND    &kp ASTERISK   &kp LBKT              &kp MINUS        &kp UNDERSCORE    &kp RIGHT_BRACKET      &kp MINUS  &kp QUESTION     &kp SINGLE_QUOTE   &none
                                    &kp BACKSPACE  &kp SPACE             &trans           &trans            &kp ENTER              &none
             >;
         };
@@ -201,7 +201,7 @@
             bindings = <
         &trans  &trans  &kp C_VOLUME_UP  &trans            &trans    &trans  &trans  &trans    &trans  &trans
         &trans  &trans  &kp C_VOL_DN     &kp K_PLAY_PAUSE  &trans    &trans  &trans  &sort_as  &trans  &trans
-  &trans  &trans  &kp K_MUTE       &trans            &trans    &trans  &trans  &trans    &trans  &trans  
+&trans  &trans  &trans  &kp K_MUTE       &trans            &trans    &trans  &trans  &trans    &trans  &trans  &trans
                         &trans           &trans            &trans    &trans  &trans  &trans
             >;
         };
