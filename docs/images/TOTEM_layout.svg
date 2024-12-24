@@ -33,6 +33,7 @@
       <rect class="cls-2" x="99.69" y="30.3" width="49.61" height="46.77" rx="2.61" ry="2.61" transform="translate(-3.44 8.81) rotate(-4)"/>
       <rect class="cls-2" x="103.09" y="78.41" width="49.61" height="46.77" rx="2.61" ry="2.61" transform="translate(-6.79 9.17) rotate(-4)"/>
       <rect class="cls-2" x="106.39" y="126.41" width="49.61" height="46.77" rx="2.61" ry="2.61" transform="translate(-10.13 9.52) rotate(-4)"/>
+      <rect class="cls-2" x="42.36" y="74.32" width="49.61" height="46.77" rx="2.61" ry="2.61" transform="translate(-15.95 13.15) rotate(-10)"/>
       <rect class="cls-2" x="50.66" y="121.83" width="49.61" height="46.77" rx="2.61" ry="2.61" transform="translate(-24.07 15.31) rotate(-10)"/>
       <rect class="cls-2" x="59.06" y="169.23" width="49.61" height="46.77" rx="2.61" ry="2.61" transform="translate(-32.17 17.49) rotate(-10)"/>
       <rect class="cls-2" x="252.67" y="186.64" width="46.77" height="49.61" rx="2.61" ry="2.61" transform="translate(.37 423.37) rotate(-75)"/>
@@ -52,6 +53,7 @@
       <rect class="cls-2" x="105.36" y="35.97" width="38.27" height="35.43" rx=".95" ry=".95" transform="translate(-3.44 8.81) rotate(-4)"/>
       <rect class="cls-2" x="108.76" y="84.07" width="38.27" height="35.43" rx=".95" ry=".95" transform="translate(-6.79 9.17) rotate(-4)"/>
       <rect class="cls-2" x="112.06" y="132.08" width="38.27" height="35.43" rx=".95" ry=".95" transform="translate(-10.13 9.52) rotate(-4)"/>
+      <rect class="cls-2" x="48.03" y="79.99" width="38.27" height="35.43" rx=".95" ry=".95" transform="translate(-15.95 13.15) rotate(-10)"/>
       <rect class="cls-2" x="56.33" y="127.5" width="38.27" height="35.43" rx=".95" ry=".95" transform="translate(-24.07 15.31) rotate(-10)"/>
       <rect class="cls-2" x="64.73" y="174.9" width="38.27" height="35.43" rx=".95" ry=".95" transform="translate(-32.17 17.49) rotate(-10)"/>
       <rect class="cls-2" x="258.34" y="192.31" width="35.43" height="38.27" rx=".95" ry=".95" transform="translate(.37 423.37) rotate(-75)"/>
@@ -71,6 +73,7 @@
       <rect class="cls-2" x="585.05" y="28.89" width="46.77" height="49.61" rx="2.61" ry="2.61" transform="translate(512.43 656.9) rotate(-86)"/>
       <rect class="cls-2" x="581.65" y="76.99" width="46.77" height="49.61" rx="2.61" ry="2.61" transform="translate(461.29 698.25) rotate(-86)"/>
       <rect class="cls-2" x="578.35" y="124.99" width="46.77" height="49.61" rx="2.61" ry="2.61" transform="translate(410.33 739.61) rotate(-86)"/>
+      <rect class="cls-2" x="642.38" y="72.9" width="46.77" height="49.61" rx="2.61" ry="2.61" transform="translate(453.94 736.4) rotate(-80)"/>
       <rect class="cls-2" x="634.08" y="120.41" width="46.77" height="49.61" rx="2.61" ry="2.61" transform="translate(400.29 767.48) rotate(-80)"/>
       <rect class="cls-2" x="625.68" y="167.81" width="46.77" height="49.61" rx="2.61" ry="2.61" transform="translate(346.67 798.38) rotate(-80)"/>
       <rect class="cls-2" x="432.07" y="188.06" width="49.61" height="46.77" rx="2.61" ry="2.61" transform="translate(-39.16 125.45) rotate(-15)"/>
@@ -90,6 +93,7 @@
       <rect class="cls-2" x="590.72" y="34.56" width="35.43" height="38.27" rx=".95" ry=".95" transform="translate(512.44 656.9) rotate(-86)"/>
       <rect class="cls-2" x="587.32" y="82.66" width="35.43" height="38.27" rx=".95" ry=".95" transform="translate(461.29 698.25) rotate(-86)"/>
       <rect class="cls-2" x="584.02" y="130.66" width="35.43" height="38.27" rx=".95" ry=".95" transform="translate(410.33 739.61) rotate(-86)"/>
+      <rect class="cls-2" x="648.05" y="78.57" width="35.43" height="38.27" rx=".95" ry=".95" transform="translate(453.93 736.39) rotate(-80)"/>
       <rect class="cls-2" x="639.75" y="126.08" width="35.43" height="38.27" rx=".95" ry=".95" transform="translate(400.29 767.47) rotate(-80)"/>
       <rect class="cls-2" x="631.35" y="173.48" width="35.43" height="38.27" rx=".95" ry=".95" transform="translate(346.67 798.37) rotate(-80)"/>
       <rect class="cls-2" x="437.73" y="193.73" width="38.27" height="35.43" rx=".95" ry=".95" transform="translate(-39.16 125.46) rotate(-15)"/>
